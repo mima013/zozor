@@ -1,0 +1,224 @@
+        body {
+            background: url('images/fond_jaune.png');
+            color: black;
+            font-family: Tahoma, sans-serif;
+        }
+        
+        .blog_zozor {
+            width: 800px;
+            margin: auto;
+        }
+        
+        section h1,
+        .tweet h1,
+        .photo h1,
+        .ami h1 {
+            font-family: Dayrom, serif;
+            font-weight: normal;
+        }
+        /*le haut*/
+        
+        header {
+            background: url('images/separateur.png') repeat-x bottom;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        
+        .titre {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .logo {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+        }
+        
+        .logo img {
+            width: 30px;
+            height: 40px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+        
+        header h2 {
+            font-family: Dayrom, serif;
+            font-size: 1.1em;
+            margin-top: 0px;
+            font-weight: normal;
+        }
+        /*navigation*/
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        
+        nav li {
+            margin: 10px;
+        }
+        
+        nav a {
+            font-size: 1.3em;
+            text-decoration: none;
+            color: black;
+        }
+        
+        nav a:hover {
+            color: #760001;
+            border-bottom: 3px solid #760001;
+        }
+        /*banner*/
+        
+        .banner {
+            margin-top: 15px;
+            height: 200px;
+            border-radius: 5px;
+            background: url('images/sanfrancisco.jpg') no-repeat;
+            position: relative;
+            box-shadow: 0px 2px 2px #1c1a19;
+            margin-bottom: 25px;
+        }
+        
+        #banniere_description {
+            position: absolute;
+            bottom: 0;
+            border-radius: 0px 0px 5px 5px;
+            width: 99.5%;
+            height: 33px;
+            padding-top: 15px;
+            padding-left: 4px;
+            background-color: rgba(47, 45, 45, 0.506);
+            color: white;
+            font-size: 0.8em;
+        }
+        
+        .bouton_rouge {
+            height: 20px;
+            position: absolute;
+            right: 7px;
+            bottom: 5px;
+            background: url('images/fond_degraderouge.png') repeat-x;
+            border: 1px solid rgb(147, 61, 61);
+            border-radius: 5px;
+            font-size: 1.2em;
+            text-align: center;
+            padding: 3px 8px;
+            color: white;
+            text-decoration: none;
+        }
+        /*le corps*/
+        
+        section {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        aside {
+            text-align: justify;
+        }
+        
+        article {
+            margin-right: 20px;
+            flex: 3;
+            text-align: justify;
+        }
+        
+        .ico_categorie {
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        
+        aside {
+            flex: 1.2;
+            position: relative;
+            background-color: grey;
+            box-shadow: 0px 2px 5px #1c1a19;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+        }
+        
+        #fleche_bulle {
+            position: absolute;
+            top: 100px;
+            left: -15px;
+        }
+        
+        #photo_zozor {
+            text-align: center;
+        }
+        
+        #photo_zozor img {
+            border: 1px solid #181818;
+        }
+        
+        aside img {
+            margin-right: 5px;
+        }
+        /*pied de page*/
+        
+        footer {
+            display: flex;
+            background: url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+            padding-top: 25px;
+            margin: 10px;
+        }
+        
+        footer p,
+        footer ul {
+            font-size: 0.7em;
+        }
+        
+        footer h1 {
+            font-size: 1.1em;
+        }
+        
+        #tweet {
+            width: 30%;
+        }
+        
+        .photo h1 {
+            text-align: center;
+        }
+        
+        .photo {
+            width: 40%;
+        }
+        
+        .amis {
+            width: 40%;
+        }
+        
+        #photo img {
+            border: 1px solid #181818;
+            margin: 2px;
+        }
+        
+        .listes_amis {
+            display: flex;
+            flex: row;
+            justify-content: space-between;
+            margin-top: 0;
+        }
+        
+        #listes_amis {
+            display: flex;
+        }
+        
+        #listes_amis li {
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 0.9em;
+            display: flex;
+        }
+        
+        #listes_amis a {
+            text-decoration: none;
+            color: #760001;
+        }
